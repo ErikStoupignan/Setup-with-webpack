@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(88, 40, 208);
+  position: relative;
+}
+
+.hello {
+  color: rgb(243, 239, 239);
+}
+
+.img {
+  position: absolute;
+  right: 200px;
+}

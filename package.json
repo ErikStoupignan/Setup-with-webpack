@@ -3,17 +3,21 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "Erik Stoupignan Sánchez Beltrán",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
   },
-  "main": "index.js",
   "dependencies": {
     "acorn": "^8.8.0",
     "acorn-import-assertions": "^1.8.0",
@@ -57,6 +61,7 @@
     "kind-of": "^6.0.3",
     "loader-runner": "^4.3.0",
     "locate-path": "^5.0.0",
+    "lodash": "^4.17.21",
     "merge-stream": "^2.0.0",
     "mime-db": "^1.52.0",
     "mime-types": "^2.1.35",
